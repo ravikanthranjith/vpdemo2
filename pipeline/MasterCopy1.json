@@ -1,0 +1,17 @@
+{
+	"name": "MasterCopy1",
+	"properties": {
+		"activities": [
+			{
+				"name": "MasterWait",
+				"type": "Wait",
+				"dependsOn": [],
+				"userProperties": [],
+				"typeProperties": {
+					"waitTimeInSeconds": 1
+				}
+			}
+		],
+		"annotations": []
+	}
+}
