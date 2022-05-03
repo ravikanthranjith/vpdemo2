@@ -1,5 +1,13 @@
 {
 	"name": "vpdemoadfgit",
+	"properties": {
+		"globalParameters": {
+			"TestGlobal": {
+				"type": "string",
+				"value": "Test"
+			}
+		}
+	},
 	"location": "eastus",
 	"identity": {
 		"type": "SystemAssigned",
