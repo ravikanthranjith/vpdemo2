@@ -1,0 +1,9 @@
+{
+	"name": "vpdemoadfgit",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "2e549f43-e00e-4c0b-8641-7a5a23252a77",
+		"tenantId": "b2ef953e-b5c8-4ece-bfe7-6b5e378f5241"
+	}
+}
