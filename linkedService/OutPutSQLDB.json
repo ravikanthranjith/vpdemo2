@@ -1,0 +1,12 @@
+{
+	"name": "OutPutSQLDB",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureSqlDatabase",
+		"typeProperties": {
+			"connectionString": "integrated security=False;encrypt=True;connection timeout=30;data source=ravidatacloud.database.windows.net;initial catalog=ravidatacloud;user id=rkr_87",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQEIyRTc2QUIzLTI2MzEtNEY1Ri04MDI4LUYyREQ3MzI0QUJERV9mYzUwODcyMC02OGQxLTQzM2YtYjI0ZC1jZTAzNTk5YmIwMDAiDQp9"
+		}
+	}
+}
