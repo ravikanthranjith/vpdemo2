@@ -1,0 +1,37 @@
+{
+	"name": "OutPutSQLTable",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "OutPutSQLDB",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "EmpID",
+				"type": "varchar"
+			},
+			{
+				"name": "EmpName",
+				"type": "varchar"
+			},
+			{
+				"name": "EmpDepartment",
+				"type": "varchar"
+			},
+			{
+				"name": "EmpSalary",
+				"type": "varchar"
+			},
+			{
+				"name": "EmpLocation",
+				"type": "varchar"
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "Employee"
+		}
+	}
+}
