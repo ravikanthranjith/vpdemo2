@@ -5,6 +5,11 @@
 			"referenceName": "OutPutSQLDB",
 			"type": "LinkedServiceReference"
 		},
+		"parameters": {
+			"TableName": {
+				"type": "string"
+			}
+		},
 		"annotations": [],
 		"type": "AzureSqlTable",
 		"schema": [
@@ -31,7 +36,10 @@
 		],
 		"typeProperties": {
 			"schema": "dbo",
-			"table": "Employee"
+			"table": {
+				"value": "@dataset().TableName",
+				"type": "Expression"
+			}
 		}
 	}
 }
