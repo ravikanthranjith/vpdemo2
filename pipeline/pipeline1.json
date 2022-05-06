@@ -45,13 +45,19 @@
 				"inputs": [
 					{
 						"referenceName": "dsInputBlob",
-						"type": "DatasetReference"
+						"type": "DatasetReference",
+						"parameters": {
+							"FileName": "Employee"
+						}
 					}
 				],
 				"outputs": [
 					{
 						"referenceName": "OutPutSQLTable",
-						"type": "DatasetReference"
+						"type": "DatasetReference",
+						"parameters": {
+							"TableName": "Employee"
+						}
 					}
 				]
 			}
