@@ -4,6 +4,12 @@
 	"parameters": {
 		"factoryName": {
 			"value": "vpdemoadfgit"
+		},
+		"InputBlob_connectionString": {
+			"value": ""
+		},
+		"OutPutSQLDB_connectionString": {
+			"value": ""
 		}
 	}
 }

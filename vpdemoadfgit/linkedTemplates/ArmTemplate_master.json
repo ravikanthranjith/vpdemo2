@@ -7,6 +7,14 @@
 			"metadata": "Data Factory name",
 			"defaultValue": "vpdemoadfgit"
 		},
+		"InputBlob_connectionString": {
+			"type": "secureString",
+			"metadata": "Secure string for 'connectionString' of 'InputBlob'"
+		},
+		"OutPutSQLDB_connectionString": {
+			"type": "secureString",
+			"metadata": "Secure string for 'connectionString' of 'OutPutSQLDB'"
+		},
 		"containerUri": {
 			"type": "string",
 			"metadata": "URI to storage account containing linked ARM templates"
@@ -33,6 +41,12 @@
 				"parameters": {
 					"factoryName": {
 						"value": "[parameters('factoryName')]"
+					},
+					"InputBlob_connectionString": {
+						"value": "[parameters('InputBlob_connectionString')]"
+					},
+					"OutPutSQLDB_connectionString": {
+						"value": "[parameters('OutPutSQLDB_connectionString')]"
 					}
 				}
 			},
