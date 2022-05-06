@@ -47,7 +47,7 @@
 						"referenceName": "dsInputBlob",
 						"type": "DatasetReference",
 						"parameters": {
-							"FileName": "Employee"
+							"FileName": "Employee.csv"
 						}
 					}
 				],
