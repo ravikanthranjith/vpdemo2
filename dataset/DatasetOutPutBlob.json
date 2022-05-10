@@ -1,0 +1,29 @@
+{
+	"name": "DatasetOutPutBlob",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "OutputBlob",
+			"type": "LinkedServiceReference"
+		},
+		"parameters": {
+			"OutPutFile": {
+				"type": "string"
+			}
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": {
+					"value": "@dataset().OutPutFile",
+					"type": "Expression"
+				}
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}
